@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="image">
+            <img src="/fotor-ai-20231204134915-removebg.png" alt="" width="150px">
+            <div>
+                <h1 class="link"><a href="https://github.com/developperin/JavaScript_Projects.git">Developper.io</a></h1>
+            </div>
+        </div>
+      <h1>Currency Converter</h1>
+      <div class="converter">
+        <input type="number" id="amount" placeholder="Enter amount" />
+        <select id="fromCurrency">
+          <!-- Options populated dynamically via JavaScript  (devlopper.io is a provuided that by a javascript)-->
+        </select>
+        <select id="toCurrency">
+          <!-- Options populated dynamically via JavaScript (devlopper.io is a provuided that by a javascript)-->
+        </select>
+        <div id="result"></div>
+        <button onclick="convertCurrency()">Convert</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
