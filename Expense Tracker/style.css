@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%; /* Ensure container width doesn't exceed 800px */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 26px;
+    text-align: center;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+    appearance: none;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.clear-btn {
+    margin-top: 10px;
+    background-color: #dc3545;
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+}
+
+.total {
+    text-align: center;
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+.expenses-list {
+    margin-top: 20px;
+}
+
+.expense {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.expense span {
+    font-weight: bold;
+}
+
+.total-expenses {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+@media screen and (max-width: 600px) {
+    .form-control {
+        width: calc(100% - 22px);
+    }
+
+    .btn {
+        width: calc(50% - 5px);
+    }
+
+    .clear-btn {
+        width: calc(50% - 5px);
+    }
+}
