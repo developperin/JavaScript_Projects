@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5a9de0;
+    margin: 0;
+    padding: 0;
+    font-style: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#898989;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
+}
+.container:hover{
+    box-shadow: 0 0 20px rgb(218, 137, 16),0 0 20px rgb(15, 187, 72),0 0 20px rgb(150, 39, 165),0 0 20px rgb(0, 0, 0);
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(orange,white,green);
+    margin-bottom:1.5rem;
+    color: transparent;
+    background-clip: text;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-style: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+textarea{
+    text-align: left;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.book-item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
